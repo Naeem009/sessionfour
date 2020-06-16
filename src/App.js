@@ -8,7 +8,7 @@ function App() {
   let name = 'Naeem Shahzad'
   return (
     <div className={`box ${isMorning ? 'dayLight' : ''}`}>
-      <h1>Have a good {isMorning ? 'Morning' : 'Night'}</h1>
+      <h1>Good {isMorning ? 'Morning' : 'Night'}</h1>
       <Message name={'Naeem Shahzad'}  counter={count}/>
       
       <button onClick={() => setCount(count+1)}>Update Counter</button>
